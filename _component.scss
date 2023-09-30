@@ -1,0 +1,127 @@
+@use './variables' as v;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.nav {
+    background-color: #fff;
+    color: #000;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+
+.nav>li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 1em;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+li>a:hover {
+    color: #c1c1c1;
+}
+
+.logo {
+    color: #000;
+    float: left;
+    padding: 0 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-footer {
+    background-color: #fff;
+    color: #000;
+    list-style: none;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+}
+
+.nav-footer>li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 1em;
+}
+
+.nav-footer>li>a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+li>a:hover {
+    color: #c1c1c1;
+}
+
+nav.img {
+    opacity: 50%;
+
+
+}
+
+h1 {
+    font-family: Poppins;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2em;
+    height: 20vh;
+    color: v.$brand;
+}
+
+div.artical {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    height: 50vh;
+    padding: 0 25px;
+}
+
+.artical-2 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    height: 50vh;
+    padding: 0 25px;
+}
+
+button:hover {
+    color: v.$brand;
+    background-color: #fff;
+}
+
+article.about {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+img {
+    object-fit: cover;
+    padding: 0 25px;
+}
+
+section {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 200px);
+    align-items: center;
+    height: 100vh;
+}
